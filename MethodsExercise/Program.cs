@@ -2,8 +2,19 @@
 {
     public class Program
     {
+        public static int Sum(int numOne, int numTwo)
+        {// EXERCISE TWO
+            return numOne + numTwo;
+
+        }
+        public static int Multiply(int numOne, int numTwo) 
+        {
+            return numOne * numTwo;
+        }
         static void Main(string[] args)
         {
+            
+            // EXERCISE ONE
             Console.WriteLine("Hello! What is your name?");
             string userName = Console.ReadLine();
 
@@ -17,6 +28,10 @@
             string favoriteBand = Console.ReadLine();
 
             Console.WriteLine($"The {favoriteColor} {favoriteAnimal}s by {favoriteBand} sounds like a song I would like to hear!");
+
+            
+            
+
         }
     }
 }
